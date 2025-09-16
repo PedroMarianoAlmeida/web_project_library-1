@@ -83,9 +83,7 @@ body {
 }
 
 .header__footer {
-  margin-top: auto;
-  display: flex;
-  justify-content: flex-end;
+
 }
 
 .header__address {
