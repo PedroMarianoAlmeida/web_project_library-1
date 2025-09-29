@@ -273,8 +273,8 @@ body {
 }
 
 .person_name_feynman {
-  top: 319px;
-  right: -30px;
+  top: -30px;
+  left: 319px;
 }
 
 .person_name_burbidge {
