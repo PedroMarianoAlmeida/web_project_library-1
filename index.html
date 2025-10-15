@@ -19,15 +19,12 @@
             class="nav__logo"
           />
           <ul class="nav__links">
-            <li>
-              <a class="header__link" href="#staff">Escolhas da Equipe</a>
-            </li>
-            <li><a class="header__link" href="#events">Eventos</a></li>
-            <li><a class="header__link" href="#membership">Seja um membro</a></li>
-            <li><a class="header__link" href="#contacts">Contatos</a></li>
+            <li><a href="#staff" class="nav__link">Escolhas da Equipe</a></li>
+            <li><a href="#events" class="nav__link">Eventos</a></li>
+            <li><a href="#membership" class="nav__link">Seja um membro</a></li>
+            <li><a href="#footer" class="nav__link">Contatos</a></li>
           </ul>
         </nav>
-
         <div class="header__content">
           <div class="header__text">
             <h1 class="header__title">Bem-vindo à Biblioteca Triple Peaks</h1>
@@ -38,19 +35,16 @@
               legal para estudantes legais!
             </p>
           </div>
-
           <img
             src="./images/inside_the_library.png"
             alt="Ilustração 'Dentro da biblioteca'"
             class="header__image"
           />
         </div>
-
         <div class="header__footer">
           <p class="header__address">Triple Peaks, 200 Success Avenue</p>
         </div>
       </header>
-
       <main class="content">
         <section class="staff" id="staff">
           <h2 class="staff__title">Escolhas da Equipe</h2>
@@ -60,11 +54,10 @@
               <div class="card__content">
                 <h3 class="card__title">Algoritmos: Teoria e Prática</h3>
                 <p class="card__text">
-                  O nome deste livro é autoexplicativo; é uma introdução
-                  adequada aos algoritmos! Introdução aos algoritmos, ou CLRS,
-                  em referência aos sobrenomes dos autores, é aprofundada e
-                  abrange uma variedade de algoritmos em vários capítulos
-                  independentes.
+                  Esse livro é uma introdução adequada aos algoritmos!
+                  Introdução aos algoritmos, ou CLRS, em referência aos
+                  sobrenomes dos autores, aprofunda e abrange uma variedade de
+                  algoritmos em vários capítulos independentes.
                 </p>
                 <p class="card__footer">
                   Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest,
@@ -75,14 +68,15 @@
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">
-                  A Estrutura e Interpretação de Programas de Computador (sigla
-                  em inglês, SICP)
+                  A Estrutura e Interpretação de Programas de Computador (SICP,
+                  na sigla em inglês)
                 </h3>
                 <p class="card__text">
                   Esse é um dos melhores livros para aprender os fundamentos da
-                  programação. Apresentado pelo MIT em um de seus cursos básicos
-                  de programação, o SICP é um livro de programação de uso geral
-                  que usa Esquema para ilustrar vários conceitos de programação.
+                  programação. Destacado pelo MIT em um de seus cursos
+                  fundamentais de programação, SICP é um livro de programação de
+                  uso geral que utiliza Scheme para ilustrar diversos conceitos
+                  de programação.
                 </p>
                 <p class="card__footer">
                   Harold Abelson, Gerald Jay Sussman, Julie Sussman
@@ -96,12 +90,12 @@
                   Profissionais
                 </h3>
                 <p class="card__text">
-                  Compilado pelo experiente engenheiro de software e autor
-                  Robert C. Martin (também conhecido como Tio Bob), este livro
-                  aborda as técnicas e ferramentas do verdadeiro artesanato de
-                  software. Ele explica como escrever um código limpo e
-                  demonstra como cultivar a atitude de um programador
-                  profissional qualificado.
+                  Compilado pelo experiente desenvolvedor de software e autor
+                  Robert C. Martin (também conhecido como Tio Bob), esse livro
+                  aborda as técnicas e ferramentas da verdadeira capacidade do
+                  software. Explica como escrever um código limpo e demonstrar
+                  como cultivar a atitude de um programador competente e
+                  profissional.
                 </p>
                 <p class="card__footer">Steve McConnell</p>
               </div>
@@ -110,20 +104,21 @@
               <div class="card__content">
                 <h3 class="card__title">
                   Code Complete: Um Manual Prático de Construção de Software
+                  <p class="card__footer">Steve McConnell</p>
                 </h3>
                 <p class="card__text">
                   Quer saber como escrever um código robusto, independentemente
                   da arquitetura por trás da linguagem de programação escolhida?
                   Em seguida, considere a leitura do livro: Code Complete: Um
-                  Manual Prático de Construção de Software. Ele brange de forma
-                  geral tudo relacionado a uma boa estrutura de código.
+                  Manual Prático de Construção de Software. Construção. Ele
+                  aborda de forma abrangente tudo relacionado à boa estrutura de
+                  código.
                 </p>
-                <p class="card__footer">Steve McConnell</p>
               </div>
             </li>
           </ul>
         </section>
-
+        <!-- Events page -->
         <section class="events" id="events">
           <div class="events__content">
             <h2 class="events__heading">Próximos eventos:</h2>
@@ -164,61 +159,160 @@
           <div class="events__cover">
             <img
               src="./images/cafe.png"
-              alt="Ilustração de um café/sala de conferências"
+              alt="sala de café"
               class="events__image"
             />
             <div class="person person_name_feynman">
+              <p class="person__caption">Joan Feynman</p>
               <img
                 src="./images/person_feynman.png"
-                alt="Foto de Joan Feynman"
+                alt="Joan Feynman"
                 class="person__image person__image_size_l"
               />
-              <p class="person__caption">Joan Feynman</p>
             </div>
             <div class="person person_name_burbidge">
+              <p class="person__caption">Margaret Burbidge</p>
               <img
                 src="./images/person_burbidge.png"
-                alt="Foto de Margaret Burbidge"
+                alt="Margaret Burbidge"
                 class="person__image person__image_size_m"
               />
-              <p class="person__caption">Margaret Burbidge</p>
-            </div>
-            <div class="person person_name_cannon">
-              <img
-                src="./images/person_cannon.png"
-                alt="Foto de Annie Jump Cannon"
-                class="person__image person__image_size_s"
-              />
-              <p class="person__caption">Annie Jump Cannon</p>
             </div>
             <div class="person person_name_mitchell">
               <img
                 src="./images/person_mitchell.png"
-                alt="Foto de Maria Mitchell"
-                class="person__image person__image_size_m"
+                alt="Maria Mitchell"
+                class="person__image person__image_size_s"
               />
               <p class="person__caption">Maria Mitchell</p>
             </div>
+            <div class="person person_name_cannon">
+              <img
+                src="./images/person_cannon.png"
+                alt="Annie Jump Cannon"
+                class="person__image person__image_size_m"
+              />
+              <p class="person__caption">Annie Jump Cannon</p>
+            </div>
             <div class="person person_name_tarter">
+              <p class="person__caption">Jill Tarter</p>
               <img
                 src="./images/person_tarter.png"
-                alt="Foto de Jill Tarter"
-                class="person__image person__image_size_s"
+                alt="Jill Tarter"
+                class="person__image person__image_size_m"
               />
-              <p class="person__caption">Jill Tarter</p>
             </div>
           </div>
         </section>
-
+        <!--   page Seja um membro-->
         <section class="membership" id="membership">
-          <h2 class="membership__title">Seja um membro da biblioteca</h2>
-          <p class="membership__text">
-            Aqui você pode adicionar o conteúdo da seção de membros
-          </p>
+          <h2 class="membership__title">Ser membro da biblioteca é fácil!</h2>
+          <ul class="membership__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Passo 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Preencha o formulário de filiação online.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Passo 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Venha retirar seu cartão da biblioteca na recepção.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Passo 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">Assine o verso do cartão.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Passo 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="icon finish"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Aproveite todos os incríveis benefícios de ser membro!
+              </p>
+            </li>
+          </ul>
         </section>
       </main>
 
-      <footer class="footer" id="contacts"></footer>
+      <!--Rodapé-->
+      <footer class="footer" id="footer">
+        <div class="footer__columns">
+          <!-- Coluna 1: Logotipo -->
+          <div class="footer__column">
+            <img
+              src="./images/logo_white.svg"
+              alt="Biblioteca Digital"
+              class="footer__logo"
+            />
+          </div>
+
+          <!-- Coluna 2: Horário de Funcionamento -->
+          <div class="footer__column footer__column_content_hours">
+            <h3 class="footer__column-heading">Horário de Funcionamento</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">Dias úteis: 9h - 20h</li>
+              <li class="footer__list-item">Finais de semana: 10h às 18h</li>
+            </ul>
+          </div>
+
+          <!-- Coluna 3: Redes Sociais -->
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Redes Sociais</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="footer__copyright">© 2025 Samuel Couto</p>
+      </footer>
     </div>
   </body>
 </html>
